@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/walkthrough">
+
+    <fragment
+        android:id="@+id/walkthrough"
+        android:name="com.reisdeveloper.introscreen.fragment.WalkthroughFragment"
+        android:label="walkkthrough">
+
+        <action
+            android:id="@+id/action_walkthrough_to_home"
+            app:destination="@+id/home"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.reisdeveloper.introscreen.fragment.HomeFragment">
+    </fragment>
+
+</navigation>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IntroScreen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="work_at_home">Work at Home</string>
+    <string name="work_at_home_description">Work at home to more comfort. Make a great projects with this app</string>
+    <string name="metrics">Analyse Your Project</string>
+    <string name="metrics_description">Smart details for analysis. Do more with this app</string>
+    <string name="rocket">Achieve Your Goals</string>
+    <string name="rocket_description">Achieve your goals more easily. This app will help with that</string>
+    <string name="next">Next</string>
+    <string name="go">Go</string>
+    <string name="back">Back</string>
+</resources>
